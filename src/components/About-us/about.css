@@ -1,0 +1,22 @@
+.about-section{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.about_img_wrapper img{
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.about_img{
+    height: 600px;
+}
+
+@media only screen and (max-width:576px) {
+    .about_img_wrapper{
+        padding: 25px 0 0 0;
+    }
+    .about_img{
+        height: auto;
+    }
+}

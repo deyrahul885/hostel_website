@@ -1,0 +1,12 @@
+
+.hero-section{
+    height:94vh;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+@media only screen and (max-width:576px) {
+    .hero-section{
+        height:41vh;
+    }
+}

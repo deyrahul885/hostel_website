@@ -1,0 +1,21 @@
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+.nav-menu h3{
+    color:greenyellow
+}
+.footer_copyright p{
+    color: beige;
+}
+
+.footer-section{
+    background: #442c49f0;
+    /* background: #0d324d ; */
+}
+
+.footer_brand h2{
+    color:cornsilk
+}

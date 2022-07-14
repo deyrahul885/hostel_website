@@ -1,0 +1,16 @@
+.modal-text{
+    padding: 20px;
+}
+
+.modal-text .call_icon{
+    font-size: 2.5rem;
+    background: blueviolet;
+    padding: 10px;
+    border-radius: 50%;
+    color:#fff
+}
+
+.modal-text span{
+    padding: 0 20px;
+    font-size: 1.5rem;
+}

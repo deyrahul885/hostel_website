@@ -1,0 +1,40 @@
+.address_text{
+    padding: 12px;
+    height:450px;
+}
+
+.contact-section{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.address_text h4{
+    border:1px solid #7f5a83;
+    color: #7f5a83;
+    padding: 52px;
+}
+.address_text h4:hover{
+    background-color: #7f5a83;
+    color: #fff;
+}
+
+.address_map{
+    padding: 12px;
+}
+.map_location{
+    height:450px;
+    width: 100%;
+    border:1px solid gray;
+}
+
+
+@media only screen and (max-width:576px) {
+    .address_text{
+        padding: 5px;
+        text-align: center;
+    }
+    .map_location{
+        height:300px;
+    }
+    
+}
