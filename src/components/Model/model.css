@@ -1,5 +1,6 @@
 .modal-text{
     padding: 20px;
+    text-align: center;
 }
 
 .modal-text .call_icon{
@@ -13,4 +14,5 @@
 .modal-text span{
     padding: 0 20px;
     font-size: 1.5rem;
+    font-weight: 700;
 }

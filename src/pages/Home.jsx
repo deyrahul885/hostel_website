@@ -6,7 +6,6 @@ import Footer from '../components/Footer/Footer'
 import Services from '../components/Services/Services'
 import Gallery from '../components/Gallery/Gallery'
 import Contact from '../components/Contact/Contact'
-import Hero from '../components/hero/Hero'
 
 const Home = () => {
   return (

@@ -2,9 +2,7 @@ import dhnJn from '../../assets/dhn_jn.jpg'
 import sslnt from '../../assets/sslnt.jpg'
 import pkRoy from '../../assets/pkRoy.webp'
 import GNCollege from '../../assets/gnCollege.jpg'
-import Birsa from '../../assets/birsaPark.jpg'
-import BekarBand from '../../assets/bekarband.jpg'
-import GolfGround from '../../assets/golfGround.jpg'
+import Library from '../../assets/library.jpg'
 
 const places =[
     {
@@ -19,39 +17,24 @@ const places =[
     type:'College And Library',
     details:[
             {
-                name:'SSLNT college',
-                distance:'1',
+                name:'SSLNT College',
+                distance:'1.3',
                 image:`${sslnt}`
             },
             {
             name:'P K Roy College',
-            distance:'1.5',
+            distance:'2.4',
             image:`${pkRoy}`
             },
             {
             name:'Guru Nanak College',
-            distance:'3',
+            distance:'3.8',
             image:`${GNCollege}`
-            }
-        ]
-    },
-    {
-    type:'Parks And Entertainment',
-    details:[
-            {
-                name:'Birsa Munda Park',
-                distance:'3',
-                image:`${Birsa}`
             },
             {
-            name:'BekarBand Park',
-            distance:'1.2',
-            image:`${BekarBand}`
-            },
-            {
-            name:'Golf Gound',
+            name:'State Library',
             distance:'0.5',
-            image:`${GolfGround}`
+            image:`${Library}`
             }
         ]
     },

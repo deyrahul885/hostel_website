@@ -25,9 +25,9 @@ const Gallery = () => {
 
                             return(
                             <>
-                            <div className="col-lg-4 col-sm-6">
-                             <div className="card">
-                              <img src={image} class="card-img-top" alt="..."/>
+                            <div className="col-lg-3 col-sm-6">
+                             <div className="card mb-3">
+                              <img src={image} className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                   <h5 className="card-title">{name}</h5>
                                   <div>

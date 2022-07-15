@@ -2,7 +2,6 @@ import React from 'react'
 import './model.css'
 import {BsTelephoneFill} from 'react-icons/bs'
 import {RiWhatsappLine} from 'react-icons/ri'
-import {Link} from 'react-scroll'
 
 
 const Model = () => {
@@ -18,12 +17,12 @@ const Model = () => {
         <div className="modal-body">
           <div className= 'modal-text'>
             <BsTelephoneFill className='call_icon'/>
-            <span>8210231091</span>
+            <span>620 1942 871</span>
           </div>
           <div className= 'modal-text'>
             <div className="col">
             <RiWhatsappLine className='call_icon' />
-            <span>8210231091</span>
+            <span>620 1942 871</span>
             </div>
           </div>
         </div>

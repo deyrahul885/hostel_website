@@ -1,8 +1,8 @@
 import React from 'react'
 import './hero.css'
-import Img1 from '../../assets/Img1.jpg'
-import Img2 from '../../assets/Img2.jpg'
-import Img4 from '../../assets/Img4.jpg'
+import Img1 from '../../assets/Img1-min.jpg'
+import Img2 from '../../assets/Img2-min.jpg'
+import Img4 from '../../assets/Img4-min.jpg'
 
 
 const Hero = () => {

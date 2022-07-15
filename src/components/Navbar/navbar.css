@@ -35,6 +35,22 @@ a.navbar-brand{
     padding: 0 10px;
     color:blueviolet
 }
+.home-icon{
+    font-size: 2.5rem;
+    color:blueviolet
+}
+.navbar-brandName{
+    padding-left: 10px;
+    line-height: 22px;
+}
+.navbar-brandName h4{
+    color:#918181!important;
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+}
+.navbar-brandName p{
+    color:darkgray
+}
 
 
 /* --------------mobile-responsive------------- */
@@ -54,5 +70,8 @@ a.navbar-brand{
     
     button.btn.nav-button{
         display:none
+    }
+    a.navbar-brand{
+        font-size: 1.5rem;
     }
 }

@@ -8,6 +8,7 @@
     color:greenyellow
 }
 .footer_copyright p{
+    margin: 10px 0;
     color: beige;
 }
 
@@ -16,6 +17,7 @@
     /* background: #0d324d ; */
 }
 
-.footer_brand h2{
+.footer_brand h2,h5{
+    margin: 0;
     color:cornsilk
 }
