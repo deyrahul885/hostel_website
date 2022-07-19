@@ -2,6 +2,7 @@
     padding-top: 100px;
     padding-bottom: 0;
 }
-/* .card-title{
-    color:rgb(65, 62, 62)
-} */
+.top-title h2{
+    margin: 2rem auto;
+    color:#4f989a;
+}

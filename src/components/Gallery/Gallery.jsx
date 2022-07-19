@@ -11,7 +11,7 @@ const Gallery = () => {
             <div className="title">
             <h2>Near By Places</h2>
             </div>
-            <div>
+            <div className='top-title'>
             {
                 places.map((item)=>{
                   const[{type}] = [item]
@@ -26,7 +26,7 @@ const Gallery = () => {
                             return(
                             <>
                             <div className="col-lg-3 col-sm-6">
-                             <div className="card mb-3">
+                             <div className="card gallery_card mb-3">
                               <img src={image} className="card-img-top" alt="..."/>
                                 <div className="card-body">
                                   <h5 className="card-title">{name}</h5>
