@@ -1,10 +1,13 @@
 import React from 'react'
 import './footer.css'
 import {Link} from 'react-scroll'
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
   return (
     <>
+    <ScrollToTop smooth color='#fff' style={{backgroundColor: '#7f5a83',
+  backgroundImage: 'linear-gradient(315deg, #a4508b 0%, #0d324d 74%)'}}/>
     <section className='footer-section'>
         <div className="container">
             <div className="row text-center">

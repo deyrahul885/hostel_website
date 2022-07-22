@@ -21,3 +21,9 @@
     margin: 0;
     color:cornsilk
 }
+
+@media screen and (max-width:576px) {
+    .styles_scroll-to-top__2A70v {
+        right: 12px!important ;
+    }
+}
