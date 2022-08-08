@@ -11,6 +11,8 @@ import electricityIcon from '../../assets/electricity-icon.png'
 import waterIcon from '../../assets/water-icon.png'
 import bedIcon from '../../assets/bed-icon.png'
 import wifi from '../../assets/wifi-icon.png'
+import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
 
 
 const Services = () => {

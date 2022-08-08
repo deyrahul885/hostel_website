@@ -47,7 +47,6 @@ a{
 }
 
 .btn:active{
-  transform: translate(10px);
   box-shadow: 0px 0px 1px rgb(0 0 0 / 20%);
   border-bottom: none;
 }

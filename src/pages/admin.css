@@ -1,0 +1,10 @@
+.admin{
+    margin-top: 120px;
+    border:1px solid grey
+}
+
+input{
+    margin: 20px!important;
+    padding: 5px;
+    outline: none;
+}
