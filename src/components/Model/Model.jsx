@@ -20,7 +20,7 @@ const Model = () => {
         event.preventDefault();
 
     const{name,email,city,mobile} = visitor;
-    const response = await fetch(process.env.REACT_APP_POST,{
+    const response = await fetch('https://hostel-server-backend.herokuapp.com/visitor/register',{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
