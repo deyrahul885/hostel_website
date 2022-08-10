@@ -16,7 +16,7 @@ const Admin = () => {
 
 
     const fetchData=()=>{
-    axios.get(process.env.REACT_APP_ADMIN_DATA)
+    axios.get('https://hostel-server-backend.herokuapp.com/visitor/visitors')
                 .then((response)=>{
                     const visitorData = response.data
                     setData(visitorData);
